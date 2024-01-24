@@ -20,7 +20,7 @@ class News(commands.Cog):
         # Define parameters for the request
         params = {
             'q': ticker,  # User-specified topic
-            'apiKey': 'b537a0cab4904884a43b638c181561eb'
+            'apiKey': 'YOUR_API_KEY'
         }
 
         # Make the request
