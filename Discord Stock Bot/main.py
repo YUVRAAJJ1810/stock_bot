@@ -6,7 +6,7 @@ import os
 import asyncio
 
 load_dotenv()
-TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
+TOKEN: Final[str] = os.getenv('DISCORD_TOKEN(.env file')
 
 intents: Intents = Intents.default()
 intents.message_content = True
