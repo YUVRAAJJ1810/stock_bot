@@ -44,7 +44,7 @@ class News(commands.Cog):
         else:
             await ctx.send(f"Error: {response.status_code}")
 
-        api_key = 'b537a0cab4904884a43b638c181561eb'
+        api_key = 'YOUR_API_KEY'
 
         user_topic = input("Enter the ticker value: ")
 
